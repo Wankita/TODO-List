@@ -1,0 +1,24 @@
+body {
+    background: #4B1E69;
+}
+.container {
+    max-width: 500px;
+}
+h1 {
+    font-size: 3rem;
+}
+.form-control::placeholder {
+    color: #c0c0c0;
+}
+.list-group-item {
+    background: #5a094f;
+    border: 1px solid #582762;
+}
+.btn {
+    height: 40px; 
+    width: 40px;
+}
+.btn-success:hover,
+.btn-danger:hover {
+    opacity: 0.8;
+}
